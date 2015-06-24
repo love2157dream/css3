@@ -1,0 +1,66 @@
+body{
+	font-family: Arial;
+	font-size: 20px;
+}
+body.ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.wrap{
+	width: 70%;
+	height: 200px;
+	margin: 50px auto;
+	background: #fff;
+}
+.wrap h1{
+	font-size: 20px;
+	text-align: center;
+	line-height: 200px;
+}
+
+/*
+	box-shadow:h-shadow v-shadow blur spread color inset;
+	参数：
+	h-shadow(必需):水平阴影的位置。允许负值;
+	v-shadow(必需):垂直阴影的位置。允许负值;
+	blur(可选):模糊距离;
+	spread(可选):阴影尺寸;
+	color(可选):阴影颜色;
+	inset(可选):将外阴影(outset)改为内阴影;
+*/
+.effect{
+	box-shadow: 0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+	-webkit-box-shadow: 0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+	-moz-box-shadow: 0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+	-o-box-shadow: 0px 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+}
+
+/*
+:after选择器：在被选元素的内容后买年插入内容;
+:before选择器：在被选元素的内容后面插入内容;
+说明：需要使用content属性来指定要插入的内容
+*/
+.effect:befor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
